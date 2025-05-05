@@ -1,0 +1,70 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.venv
+pythonenv*
+
+# Environment variables
+.env
+.env.local
+
+# PyCharm files
+.idea/
+*.iml
+
+# VS Code files
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files and checkpoints (if they're large)
+*.h5
+*.pkl
+*.model
+models/checkpoints/
+checkpoints/
+trained_models/
+
+# Data files (if they're large or contain sensitive information)
+*.csv
+*.json
+*.xlsx
+*.xls
+data/raw/
+data/processed/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+tmp/
+temp/
